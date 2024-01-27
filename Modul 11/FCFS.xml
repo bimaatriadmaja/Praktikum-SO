@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<process_scheduler>
+  <params>
+    <object management="FCFS">
+      <multiprogramming>true</multiprogramming>
+      <preemptive>false</preemptive>
+      <quantum>1</quantum>
+    </object>
+  </params>
+  <ready_queue />
+  <arriving_queue />
+</process_scheduler>
+
